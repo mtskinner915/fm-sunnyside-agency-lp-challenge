@@ -1,3 +1,51 @@
+li {
+  display: inline;
+}
+.image-header {
+  position: relative;
+  left: 0;
+  top: 0;
+  display: block;
+  margin: 0 auto;
+}
+.logo-header {
+  position: absolute;
+  top: 4%;
+  left: 2%;
+}
+.main-nav {
+  position: absolute;
+  top: 4%;
+  right: 4%;
+}
+.header-about,
+.header-services,
+.header-projects {
+  text-decoration: none;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: "Barlow", sans-serif;
+  font-weight: 400;
+}
+.contact-button {
+  border: none;
+  border-radius: 30px;
+  font-family: "Fraunces", sans-serif;
+  font-size: smaller;
+  font-weight: 500;
+  padding: 15px 25px 15px 25px;
+}
+.main-tagline {
+  font-size: 4vw;
+  position: absolute;
+  top: 160px;
+  left: 350px;
+  font-family: "Fraunces", sans-serif;
+  font-weight: 900;
+  color: white;
+  text-align: center;
+}
 .attribution {
   font-size: 11px;
   text-align: center;
